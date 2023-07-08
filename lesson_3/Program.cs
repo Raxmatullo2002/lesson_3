@@ -4,12 +4,13 @@
     {
         static void Main(string[] args)
         {
+            Console.WriteLine("Word Game");
 
             Random random = new Random();
            
             int randomNumber = random.Next(1, 100);          
-            int number;          
-            int n = 0;
+            int number, n=0;          
+             
 
             do
             {
@@ -29,7 +30,7 @@
                 }
                 else
                 {
-                    Console.WriteLine("TABRIKLAYMAN SIZ " +n+ " - urinishda topdingiz!");
+                    Console.WriteLine("TABRIKLAYMAN SIZ " +n+ " - URINISHDA TOPDINGIZ !");
                     break;
                 }
 
